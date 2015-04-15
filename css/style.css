@@ -1,0 +1,46 @@
+head, body, div, section, img, nav,p, header, ul, figure, button{
+	margin: auto 0;
+	padding:0;
+}
+body{
+	color: #707070 ;
+	width: 100%;
+	overflow-x:hidden;
+}
+#box-1{
+	width: 100%;
+	font-size: 2em;
+	text-align: center;
+	padding-bottom: .5em;
+	font-family: 'Lato', sans-serif;
+}
+
+#box-2>img{
+  width: 100%;
+  vertical-align: bottom;
+}
+#box-3{
+	width: 100%;
+	font-family: sans-serif;
+	width: 100%;
+	text-align: center;
+}
+#box-3>div{
+	height: 2em;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.8em;
+	color: #707070;
+    border: 2px solid black;
+    width: 100%;
+
+}
+
+#box-4{
+	font-size: 3em;
+}
+.slideshow{
+	width: 100%;
+}
+.slideshow>img{
+	width:100%;
+}

@@ -1,0 +1,4 @@
+head, body, div, section, img, nav,p, ul{
+	margin: auto 0;
+	padding:0;
+}
