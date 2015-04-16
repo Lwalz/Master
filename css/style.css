@@ -9,10 +9,12 @@ body{
 }
 #box-1{
 	width: 100%;
-	font-size: 2em;
+	font-size: 3em;
 	text-align: center;
 	padding-bottom: .5em;
 	font-family: 'Lato', sans-serif;
+	padding-top: .5em;
+	padding-bottom: .5em;
 }
 
 #box-2>img{
@@ -22,7 +24,6 @@ body{
 #box-3{
 	width: 100%;
 	font-family: sans-serif;
-	width: 100%;
 	text-align: center;
 }
 #box-3>div{
@@ -38,9 +39,34 @@ body{
 #box-4{
 	font-size: 3em;
 }
-.slideshow{
-	width: 100%;
-}
-.slideshow>img{
-	width:100%;
-}
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
