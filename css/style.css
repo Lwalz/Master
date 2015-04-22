@@ -90,11 +90,13 @@ background-color: white;
   padding-left: 3em;
   padding-right: 3em;
   background-color: white;
+  vertical-align: bottom;
 
 }
 #b{
   max-width: 100%;;
-  background-color: white
+  background-color: white;
+  vertical-align: bottom;
 }
 form{
   font-size: 2em;
@@ -127,5 +129,5 @@ form{
 #d{
   padding-bottom: 1em;
   background-color: white;
-  font-size: 4em;
+  font-size: 6em;
 }
