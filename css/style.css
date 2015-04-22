@@ -33,6 +33,7 @@ background-color: white;
 	width: 100%;
 	text-align: center;
   font-family: 'Lato', sans-serif;
+  vertical-align: bottom;
 }
 #box-3>button{
 	height: 7em;
@@ -125,5 +126,5 @@ form{
 #d{
   padding-bottom: 1em;
   background-color: white;
-  font-size: 2em;
+  font-size: 4em;
 }
