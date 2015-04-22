@@ -93,7 +93,8 @@ background-color: white;
 
 }
 #b{
-  max-width: 100%;
+  max-width: 100%;;
+  background-color: white
 }
 form{
   font-size: 2em;
