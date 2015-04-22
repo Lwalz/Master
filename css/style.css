@@ -113,6 +113,7 @@ form{
   padding-top: 1em;
   padding-left: 1.3em;
   padding-right: 1.3em;
+  max-width: 100%;
 }
 #d{
   padding-bottom: 1em;
