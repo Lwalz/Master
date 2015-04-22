@@ -36,7 +36,7 @@ background-color: white;
   vertical-align: bottom;
 }
 #box-3>button{
-	height: 7em;
+	height: 9em;
 	font-size: 1.6em;
   width: 100%;
   background-color: #707070;
@@ -97,11 +97,13 @@ background-color: white;
   max-width: 100%;;
   background-color: white;
   vertical-align: bottom;
+  height: 9em;
 }
 form{
-  font-size: 2em;
+  font-size: 5em;
   float: left;
   width: 100%;
+  height: 5em;
 }
 #send{
   width: 7em;
@@ -119,6 +121,10 @@ form{
   padding-right: 3em;
   padding-top: 1em;
   padding-bottom: 1em;
+}
+.entry-content>img{
+  height: 8em;
+  width: 6em;
 }
 #d>p{
   padding-top: 1em;
