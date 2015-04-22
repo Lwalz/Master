@@ -20,11 +20,6 @@ body{
   vertical-align: bottom;
 }
 
-#box-2>img{
-  width: 100%;
-  vertical-align: bottom;
-}
-
 #box-2{
 background-color: white;
 
@@ -123,17 +118,16 @@ form{
   padding-bottom: 1em;
 }
 .entry-content>img{
-  height: 8em;
-  width: 6em;
+  height: 20em;
+  width: 15em;
 }
 #d>p{
   padding-top: 1em;
   padding-left: 1.3em;
   padding-right: 1.3em;
-  max-width: 100%;
 }
 #d{
   padding-bottom: 1em;
   background-color: white;
-  font-size: 3em;
+  font-size: 2.6em;
 }
