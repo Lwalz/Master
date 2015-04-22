@@ -9,12 +9,14 @@ body{
 }
 #box-1{
 	width: 100%;
-	font-size: 3em;
-	text-align: center;
-	padding-bottom: .5em;
 	font-family: 'Lato', sans-serif;
-	padding-top: .5em;
-	padding-bottom: .5em;
+  vertical-align: bottom;
+  height: 100%;
+}
+#box-1>img{
+  width: 100%;
+  height: 100%;
+  vertical-align: bottom;
 }
 
 #box-2>img{
@@ -23,21 +25,26 @@ body{
 }
 #box-3{
 	width: 100%;
-	font-family: sans-serif;
 	text-align: center;
+  font-family: 'Lato', sans-serif;
 }
-#box-3>div{
-	height: 2em;
-	font-family: 'Lato', sans-serif;
-	font-size: 1.8em;
-	color: #707070;
-    border: 2px solid black;
-    width: 100%;
+#box-3>button{
+	height: 3em;
+	font-size: 1.6em;
+  width: 100%;
+  background-color: #707070;
+  color: white;
+  letter-spacing: .2em;
+  border-radius: .4em;
 
 }
 
 #box-4{
-	font-size: 3em;
+	font-size: 1.5em;
+  background-color: white;
+  padding-top: .8em;
+  padding-bottom: .8em;
+  color: black;
 }
 .rslides {
   position: relative;
@@ -70,3 +77,42 @@ body{
   width: 100%;
   border: 0;
   }
+#a{
+  padding-top: .6em;
+  padding-bottom: .6em;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+#b{
+  max-width: 100%;
+}
+form{
+  font-size: 2em;
+  float: left;
+  width: 100%;
+}
+#send{
+  width: 7em;
+  height: 2em;
+  font-size: .6em;
+}
+.entry-content{
+  width:100%;
+  max-width: 100%;
+  font-size: 1em;
+  background-color: white;
+}
+.entry-content>p{
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+#d>p{
+  padding-top: 1em;
+  padding-left: 1.3em;
+  padding-right: 1.3em;
+}
+#d{
+  padding-bottom: 1em;
+}
