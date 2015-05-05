@@ -7,6 +7,9 @@ body{
 	width: 100%;
 	overflow-x:hidden;
 }
+#top{
+  height: 100%;
+}
 #box-1{
 	width: 100%;
 	font-family: 'Lato', sans-serif;
@@ -132,4 +135,44 @@ form{
   padding-bottom: 1em;
   background-color: white;
   font-size: .7em;
+}
+@media (min-width:900px){
+  #box-1>img{
+    width: 100%;
+    vertical-align: bottom;
+    }
+  #box-1{
+    width: 20%;
+    float: left;
+    height: 10em;
+  }
+  #box-3{
+    width: 80%;
+    height: 10em;
+    vertical-align: bottom;
+    float: left;
+  }
+  #box-3>button{
+    width: 25%;
+    float: left;
+  }
+  .rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  float: left;
+  }
+  #box-3>button{
+  background-color: #707070;
+  color: white;
+  letter-spacing: .2em;
+  border-radius: .7em;
+  font-size: 1.4em;
+  max-height: 100%;
+
+}
+
 }
